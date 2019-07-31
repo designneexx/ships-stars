@@ -1,0 +1,43 @@
+body, html {
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  color: #2d2d2d;
+  background-color: #d3ecfb;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+.btn {
+  background-color: #ff5847;
+  color: #fff;
+  font-weight: 600;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+  font-size: 14px;
+  padding: 12px 20px;
+  border-radius: 325em;
+  border: none;
+  outline: none;
+}
+
