@@ -26,7 +26,7 @@
             }
           }
         } catch (e) {
-          console.log(e)
+          error({ statusCode: 404, message: 'Страница не найдена' })
         }
       }
     }

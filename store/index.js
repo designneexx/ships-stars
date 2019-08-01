@@ -16,8 +16,14 @@ export const mutations = {
 export const actions = {
   async initStarsShips ({ commit }) {
     try {
-      const starsShips = await fetch('http://swapi.co/api/starships/', {
-        mode: 'no-cors'
+      const starsShips = await fetch('https://swapi.co/api/starships/', {
+        mode: 'cors',
+        credentials: 'same-origin', // include, *same-origin, omit
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        redirect: 'follow', // manual, *follow, error
+        referrer: 'no-referrer', // no-referrer, *client
       }).then(res => res.json())
       commit('initStarsShips', starsShips.results)
     } catch (e) {

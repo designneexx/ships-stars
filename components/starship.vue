@@ -19,13 +19,13 @@
 
 <script>
     export default {
-      props: {
-        detail: {
-          type: Object,
-          required: true
-        }
-      },
-      name: 'starship'
+        props: {
+            detail: {
+                type: Object,
+                required: true
+            }
+        },
+        name: 'starship'
     }
 </script>
 

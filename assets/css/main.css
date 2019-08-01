@@ -41,3 +41,16 @@ img {
   outline: none;
 }
 
+.footer-site {
+  background-color: #fff;
+  padding: 25px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid #b8bfcc;
+}
+
+.header-site {
+  height: 65px;
+}
